@@ -2,7 +2,7 @@ Steps to run the package
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
 
-Step1:- Unzip the pacckage in the source folder of your workspace
+Step1:- Unzip the package in the source folder of your workspace
 ------------------------------------------------------------------------------------------
 
 Step2:- Build the package using the command
@@ -27,3 +27,5 @@ Step6:- In second terminal run the gesture node
 ------------------------------------------------------------------------------------------
         ros2 run ros2_gesture_control gesture_detector
 
+Note:- Ensure to have same Domain ID of your turtlebot3 and you PC for the connection to be established. 
+------------------------------------------------------------------------------------------
