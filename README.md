@@ -19,9 +19,13 @@ Step4:- Export the turtlebot3 model in each terminal
 ------------------------------------------------------------------------------------------
         export TURTLEBOT3_MODEL=waffle_pi
 
-Step5:- One terminal run the turtlebot3 bringup
+Step5:- For Hardware test, In One terminal run the turtlebot3 bringup after successfully connecting to turtlebot3 using ssh
 ------------------------------------------------------------------------------------------
        ros2 launch turtlebot3_bringup robot.launch.py
+
+For Simulaton Test, Run below command in one terminal
+
+        ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 Step6:- In second terminal run the gesture node
 ------------------------------------------------------------------------------------------
